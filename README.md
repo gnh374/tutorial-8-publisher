@@ -10,3 +10,7 @@
 ![Screenshot 2024-04-21 202239](https://github.com/gnh374/tutorial-publisher/assets/121223135/8de177a9-93fe-4e47-a36e-ca0934488a21)
 Saya menjalankan subscriber kemudian menjalankan publisher. Kemudian pesan ini terlihat pada terminal subscriber. Hal ini menunjukkan bahwa publisher berhasil mengirimkan data ke subscriber melalui RabbitMQ. Publisher mengirimkan data ke exchange. Selanjutnya exchange akan mengarahkan pesan ke queue yang tepat berdasarkan binding. Queue akan menyimpan pesan sementara. Kemudian subscriber akan menunggu pesan dalam antrian dan akan memprosesnya sesuai kebutuhan.
 
+![Screenshot (492)](https://github.com/gnh374/tutorial-publisher/assets/121223135/13f42cb7-9449-4c41-934c-274d30d713d6)
+Grafik diatas menunjukkan peningkatan banyaknya pesan yang dikirimkan pada suatu interval waktu. Spike kedua lebih tinggi daripada spike pertama karena pada rentang waktu tersebut saya menjalankan publisher lebih banyak dari pada rentang waktu sebelumnya sehingga pesan yang dikirimkan pada interval kedua lebih banyak dari interval sebelumnya.
+
+
