@@ -12,5 +12,5 @@ Saya menjalankan subscriber kemudian menjalankan publisher. Kemudian pesan ini t
 
 ![Screenshot (492)](https://github.com/gnh374/tutorial-publisher/assets/121223135/13f42cb7-9449-4c41-934c-274d30d713d6)
 Grafik diatas menunjukkan peningkatan banyaknya pesan yang dikirimkan pada suatu interval waktu. Spike kedua lebih tinggi daripada spike pertama karena pada rentang waktu tersebut saya menjalankan publisher lebih banyak dari pada rentang waktu sebelumnya sehingga pesan yang dikirimkan pada interval kedua lebih banyak dari interval sebelumnya.
-
-
+![Screenshot (493)](https://github.com/gnh374/tutorial-publisher/assets/121223135/726dcb2d-a2af-421c-8620-d1735fc81cac)
+Grafik diatas menunjukkan sempat ada 10 pesan pada queue. Hal ini terjadi karena kecepatan subscriber dalam mengonsumsi data pada ququq lebih lambat dari pada kecepatan pesan yang masuk sehingga pesan akan tetap berada di queue sampai subscriber mengonsumsi data tersebut
